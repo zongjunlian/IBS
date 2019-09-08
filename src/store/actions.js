@@ -1,0 +1,1 @@
+export const updateUserName = ({commit}, name) => commit('UPDATE_USER_NAME', name)

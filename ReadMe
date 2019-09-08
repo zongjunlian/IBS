@@ -1,0 +1,76 @@
+重庆仙桃数据谷前端UI\
+
+
+
+├── node_modules  // 项目依赖包文件夹
+├── public
+│   ├── config.js //配置服务器ip
+│   ├── favicon.ico //项目图标
+│   └── index.html //人口文件
+│
+├── src    // 我们的项目的源码编写文件
+│   ├── api  // 常用工具文件夹
+│   │     ├── validate.js //表单校验规则文件
+│   │     ├── filter.js //过滤器文件
+│   │     ├── util.js //处理公共js操作方法
+│   │     ├── paramsFilter.js //引入qs
+│   │     └── http.js //网络请求封装文件
+│   ├── assets  // 静态资源文件
+│   │       ├── css
+│   │       │     └──common.less //公共样式文件
+│   │       └── images  //图片文件夹
+│   ├── components // 公共组件目录
+│   │          ├── imgButton.vue //公共按钮组件
+│   │          ├── iModal.vue //公共弹出框组件
+│   │          └── Main.vue  // 页面公共组件
+│   ├── css //自定义样式文件夹
+│   ├── request  // 接口api自定义文件夹
+│   ├── views  // 页面级组件文件夹
+│   ├── store  // 管理状态文件夹
+│   ├── App.vue  // app入口文件
+│   ├── main.js  // 主配置文件
+│   └── router // 路由配置文件夹
+│       └── index.js   // 路由配置文件
+└── vue.config.js // 项目基本配置文件
+
+
+get 获取/set 设置,
+add 增加/remove 删除
+create 创建/destory 移除
+start 启动/stop 停止
+open 打开/close 关闭,
+read 读取/write 写入
+load 载入/save 保存,
+begin 开始/end 结束,
+backup 备份/restore 恢复
+import 导入/export 导出,
+split 分割/merge 合并
+inject 注入/extract 提取,
+attach 附着/detach 脱离
+bind 绑定/separate 分离,
+view 查看/browse 浏览
+edit 编辑/修改,
+select 选取/mark 标记
+copy 复制/paste 粘贴,
+undo 撤销/redo 重做
+insert 插入/clear 清除,
+index 索引/sort 排序
+find 查找/search 搜索,
+play 播放/pause 暂停,
+change 改变/run 运行
+build 构建/publish 发布
+input 输入/output 输出,
+encode 编码/decode 解码
+encrypt 加密/decrypt 解密,
+connect 连接/disconnect 断开,
+send 发送/receive 接收
+download 下载/upload 上传,
+refresh 刷新/synchronize 同步
+update 更新/revert 复原,
+lock 锁定/unlock 解锁
+check out 签出/check in 签入,
+submit 提交/commit 交付
+push 推/pull 拉,
+expand 展开/collapse 折叠
+start 开始/finish 完成
+enter 进入/exit 退出,聚集
