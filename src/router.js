@@ -431,6 +431,15 @@ export const routes = [
           },
           component: () => import('@/views/operationManage/operation')
         },
+				 {
+				  path: '/daily',
+				  name: 'daily',
+				  meta: {
+				    // fromTitle: 'daily',
+				    title: '能源站运维管理'
+				  },
+				  component: () => import('@/views/daily/daily')
+				},
       ]
     },
   ]
