@@ -15,7 +15,7 @@
     "es6-promise": "^4.2.6",
     "iview": "^3.4.2",
     "jointjs": "^3.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "vue": "^2.6.10",
     "vue-echarts": "^4.0.3",
     "vue-orgchart": "^1.1.7",
